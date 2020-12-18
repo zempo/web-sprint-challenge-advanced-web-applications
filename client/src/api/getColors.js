@@ -1,4 +1,4 @@
-import { axiosWithAuth } from "./axiosWithAuth";
+import { axiosWithAuth } from "./auth/axiosWithAuth";
 
 export const fetchColors = () => {
   return axiosWithAuth()
