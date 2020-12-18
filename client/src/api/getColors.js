@@ -2,7 +2,7 @@ import { axiosWithAuth } from "./auth/axiosWithAuth";
 
 export const fetchColors = () => {
   return axiosWithAuth()
-    .get("/api/colors")
+    .get("/colors")
     .then((res) => {
       return res;
     })
